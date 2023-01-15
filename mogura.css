@@ -1,0 +1,87 @@
+p    { font-size:12pt; }
+#testCanvas {
+    border : none;
+    width : 310px;
+    height : 400px;
+
+}
+#header div.hide {
+    display: none;
+}
+#startButton {
+    position: absolute;
+    top: 235px;
+    left: 88px;
+    height: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    line-height: 50px;
+    border-width: 0 8px 0 8px;
+    -webkit-border-image: url(images/button.png) 0 8 0 8;
+}
+
+#popup {
+    position:absolute;
+    top: 185px;
+    left: 115px;
+    height: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: black:
+}
+
+#popup2 {
+    position:absolute;
+    top: 203px;
+    left: 115px;
+    height: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: black:
+}
+#header p { 
+    position: absolute;
+
+    -webkit-margin-start: 100px;
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 2em;
+    font-weight: bold;
+	font-size: 16.0pt;}
+
+#header div.leftButton {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    line-height: 28px;
+    border-width: 0 8px 0 8px;
+    -webkit-border-image: url(images/button.png) 0 8 0 8;
+}
+#header div.pressed {
+    -webkit-border-image: url(images/button_clicked.png) 0 8 0 8;
+}
+
+
+#header div.leftText {
+    position: absolute;
+    top: 57px;
+    left: 9px;
+    height: 30px;
+    line-height: 28px;
+}
+
+#score {
+    position: absolute;
+    font-size:20pt;
+    top: 50px;
+    left: 140px;
+    height: 30px;
+    line-height: 28px;
+}
+

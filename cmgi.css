@@ -1,0 +1,43 @@
+p    { font-size:12pt; }
+#testCanvas {
+    border : none;
+
+}
+
+#header h1 { text-align: center; 
+	font-size: 16.0pt;}
+
+#header div.leftButton {
+    position: absolute;
+    top: 10px;
+    left: 8px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: rgba(0,0,0,0.6) 0px -1px 0px;
+    line-height: 28px;
+    border-width: 0 8px 0 8px;
+    -webkit-border-image: url(image/button.png) 0 8 0 8;
+}
+#header div.pressed {
+    -webkit-border-image: url(image/button_clicked.png) 0 8 0 8;
+}
+
+
+#header div.leftText {
+    position: absolute;
+    top: 57px;
+    left: 9px;
+    height: 30px;
+    line-height: 28px;
+}
+
+#score {
+    position: absolute;
+    top: 57px;
+    left: 70px;
+    height: 30px;
+    line-height: 28px;
+}
+

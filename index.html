@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="user-scalable=no, width=device-width" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<link rel="stylesheet" type="text/css" href="mogura.css" />
+<link rel="apple-touch-icon" href="mogura.png" />
+
+    <!--
+<link rel="stylesheet" type="text/css"
+    href="mogura.css" media="screen and (min-width: 601px)" />
+    -->
+<!--
+<link rel="stylesheet" type="text/css"
+    href="canvasMogura.css"  />
+    -->
+<title>もぐらたたき </title>
+<script src="../jquery.js"></script>
+<script src="mogura.js">
+</script>
+</head>
+
+
+<body onLoad="initialize()">
+<div id="header">
+
+    <p> もぐらたたき </p>
+
+    <div id="startButton" onClick="startGame()" >Tap here to start.</div>
+    <div id="score">000 </div>
+    <div id="popup"></div>
+    <div id="popup2"></div>
+</div>
+<p><br>
+
+<div id="main">
+    <canvas id="testCanvas" width="310" height="400">
+    </canvas>
+</div>
+<p id="debugArea1">
+</p>
+<p id="debugArea2">
+</p>
+<p id="debugArea3">
+</p>
+<p id="debugArea4">
+</p>
+<p id="debugArea5">
+</p>
+<p id="debugArea6">
+</p>
+<p id="debugArea7">
+</p>
+</body>
+</html>
